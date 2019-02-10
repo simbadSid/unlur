@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- ============================== -->
+<!-- Activity de jeux				-->
+<!-- ============================== -->
+
+
+
+<RelativeLayout
+	xmlns:android						= "http://schemas.android.com/apk/res/android"
+ 	android:layout_width				= "fill_parent"
+	android:layout_height				= "fill_parent"
+	android:background					= "@color/defaultBackgroundColor">
+																				<!-- Bouton menu -->
+	<ImageButton
+		android:id						= "@+id/menuButton"
+		android:layout_alignParentLeft	= "true"
+		android:layout_alignParentBottom= "true"
+		android:layout_width			= "wrap_content"
+		android:layout_height			= "wrap_content"
+		android:src						= "@drawable/menu_button"
+		android:contentDescription		= "@string/menuDescription"
+		style							= "@style/controlButton"/>
+	    																		<!-- Vue gauche -->
+	<LinearLayout
+	    android:id						= "@+id/infoView"
+		android:layout_width			= "wrap_content"
+		android:layout_height			= "wrap_content"
+		android:orientation				= "vertical"
+		android:layout_alignLeft		= "@id/menuButton"
+		android:layout_alignRight		= "@id/menuButton">
+		<TextView
+			android:id					= "@+id/stepTitle"
+			android:layout_width		= "fill_parent"
+			android:layout_height		= "fill_parent"
+			android:text				= "@string/stepTitle"
+		    android:layout_marginTop	= "25dip"
+			style						= "@style/infoTitle"/>
+		<TextView
+			android:id					= "@+id/stepValue"
+			android:layout_width		= "fill_parent"
+			android:layout_height		= "fill_parent"
+			style						= "@style/infoValue"/>
+		<TextView
+			android:id					= "@+id/playerTitle"
+			android:layout_width		= "fill_parent"
+			android:layout_height		= "fill_parent"
+			android:text				= "@string/playerTitle"
+		    android:layout_marginTop	= "25dip"
+			style						= "@style/infoTitle"/>
+		<TextView
+			android:id					= "@+id/playerValue"
+			android:layout_width		= "fill_parent"
+			android:layout_height		= "fill_parent"
+			style						= "@style/infoValue"/>
+	</LinearLayout>
+																				<!-- Vue droite -->
+	<LinearLayout
+	    android:id						="@+id/controlView"
+		android:layout_width			= "wrap_content"
+		android:layout_height			= "wrap_content"
+		android:orientation				= "vertical"
+		android:layout_alignParentRight	= "true"
+		android:layout_centerVertical	= "true">
+
+		<Button
+			android:id					= "@+id/buttonChangeStep"
+			style						= "@style/controlButton"
+			android:layout_width		= "wrap_content"
+			android:layout_height		= "wrap_content"
+			android:text				= "@string/changeStep"/>
+
+		<ImageButton
+			android:id						= "@+id/buttonRedo"
+			android:layout_width			= "wrap_content"
+			android:layout_height			= "wrap_content"
+			android:layout_marginTop		= "10dip"
+			android:src						= "@drawable/redo_button"
+			android:contentDescription		= "@string/redoDescription"
+			style							= "@style/controlButton"/>
+		<ImageButton
+			android:id						= "@+id/buttonUndo"
+			android:layout_width			= "wrap_content"
+			android:layout_height			= "wrap_content"
+			android:layout_marginTop		= "10dip"
+			android:src						= "@drawable/undo_button"
+			android:contentDescription		= "@string/undoDescription"
+			style							= "@style/controlButton"/>
+		<ImageButton
+			android:id						= "@+id/buttonClearAll"
+			android:layout_width			= "wrap_content"
+			android:layout_height			= "wrap_content"
+			android:layout_marginTop		= "10dip"
+			android:src						= "@drawable/clear_all_button"
+			android:contentDescription		= "@string/clearAllDescription"
+			style							= "@style/controlButton"/>
+	</LinearLayout>
+																			<!-- Vue centrale: terrain -->
+	<graphic.GroundView
+		android:id						= "@+id/groundView"
+		android:layout_toRightOf		= "@id/infoView"
+		android:layout_toLeftOf			= "@id/controlView"
+		android:layout_height			= "fill_parent"
+		android:layout_width			= "fill_parent">
+	</graphic.GroundView>
+</RelativeLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Unlur</string>
+	<string name="action_settings">Settings</string>
+
+																								<!-- Main image -->
+	<string name = "mainImageDescription">		Opening image							</string>
+
+	<string name = "buttonNewMain">				New Game								</string>
+	<string name = "buttonLoadMain">			Load Game								</string>
+	<string name = "buttonRulesMain">			Game Rules								</string>
+	<string name = "buttonParametersMain">		Parameters								</string>
+	<string name = "buttonContactUsMain">		Contact Us								</string>
+	<string name = "buttonExitMain">			Exit									</string>
+																								<!-- Info view -->
+	<string name = "stepTitle">					Step:									</string>
+	<string name = "playerTitle">				Player:									</string>
+																								<!-- Control view -->
+	<string name = "changeStep">				Next Step								</string>
+	<string name = "menuDescription">			Menu button image						</string>
+	<string name = "redoDescription">			Redo button image						</string>
+	<string name = "undoDescription">			Undo button image						</string>
+	<string name = "clearAllDescription">		Clear All button image					</string>
+																								<!-- Menu -->
+	<string name = "menuMainTitle">				Main									</string>
+	<string name = "menuParameterTitle">		Parameter								</string>
+	<string name = "menuNewItem">				New Game								</string>
+	<string name = "menuLoadItem">				Load Game								</string>
+	<string name = "menuSaveItem">				Save Game								</string>
+	<string name = "menuRulesItem">				Show Game Rules							</string>
+	<string name = "menuGameItem">				Game Parameters							</string>
+	<string name = "menuColorItem">				Color Prameters							</string>
+																								<!-- Parameters -->
+	<string name = "gameName">					Game Name								</string>
+	<string name = "groundDim">					Ground Dim								</string>
+	<string name = "player1">					Player 1								</string>
+	<string name = "player2">					Player 2								</string>
+	<string name = "step">						Step									</string>
+	<string name = "creationDate">				Creation Date							</string>
+	<string name = "groundDimHint">				Positive integer between %1$d and %2$d	</string>
+	<string name = "players">					Players									</string>
+	<string name = "twoPlayers">				Two Players								</string>
+	<string name = "player1AI">					Player 1: AI							</string>
+	<string name = "player2AI">					Player 2: AI							</string>
+	<string name = "AILevel">					Artificial Intelligence Level			</string>
+	<string name = "level1">					Level 1									</string>
+	<string name = "level2">					Level 2									</string>
+	<string name = "level3">					Level 3									</string>
+	<string name = "ok">						OK										</string>
+	<string name = "cancel">					Cancel									</string>
+	<string name = "reset">						Reset									</string>
+	<string name = "restart">					Reset									</string>
+	<string name = "save">						Save									</string>
+	<string name = "load">						Load									</string>
+	<string name = "newGame">					New Game								</string>
+	<string name = "replaceExistingSave">		Replace Game							</string>
+	<string name = "Game">						Game									</string>
+	<string name = "color">						Color									</string>
+	<string name = "changeGameName">			Change Game Name						</string>
+	<string name = "deleteGame">				Delete									</string>
+																								<!-- Contact Us -->
+	<string name = "developer">					Designer and Developer					</string>
+	<string name = "email">						Email									</string>
+	<string name = "phone">						Phone Number							</string>
+	<string name = "cv">						Curriculum Vitæ							</string>
+																								<!-- Color -->
+	<string name = "colorChooserParameterId">	Element to set: <b>%1$s</b>				</string>
+	<string name = "field">						Field									</string>
+	<string name = "outline">					Outline									</string>
+	<string name = "blackPawn">					Black Pawn								</string>
+	<string name = "whitePawn">					White Pawn								</string>
+	<string name = "colorChooser">				Color Chooser							</string>
+	<string name = "gridColorChooser">			Grid Color Chooser						</string>
+	<string name = "customColorChooser">		Custom Color Chooser					</string>
+	<string name = "red">						Red										</string>
+	<string name = "green">						Green									</string>
+	<string name = "blue">						Blue									</string>
+	<string name = "transparency">				Transparency							</string>
+																								<!-- Save -->
+	<string name = "saveHint">					Game Name								</string>
+	<string name = "saveLabel">					Please enter the name of the game to save</string>
+																								<!-- Load -->
+	<string name = "loadLabel">					Select a game to load ....				</string>
+	<string name = "loadEmptyLabel">			<b>There are no saved games</b>			</string>
+																								<!-- Application -->
+	<string name = "step0">						1										</string>
+	<string name = "step1">						2										</string>
+	<string name = "step2">						End Of Game								</string>
+	<string name = "AIChangeStep">				The Artificial Inteligence has gone to the 2nd step</string>
+	<string name = "resetDimTitle">				Reset Ground Dimension?										</string>
+	<string name = "resetDimMessage">			Changing the ground dimension will reset your current game	</string>
+	<string name = "newGameTitle">				Set New Game?												</string>
+	<string name = "newGameMessage">			Setting a new game will reset your current game				</string>
+	<string name = "clearAllTitle">				Restart Game?												</string>
+	<string name = "clearAllMessage">			Restarting this game will permanently delete it			</string>
+	<string name = "deleteGameTitle">			Delete Game?												</string>
+	<string name = "deleteGameMessage">			By deleting this game you permanently remove it from your system</string>
+	<string name = "deleteGameError">			An error occurred while deleting the game \"<b>%1$s</b>\".\nDeleting aborted.</string>
+	<string name = "loadTitle">					Loading?											</string>
+	<string name = "loadMessage">				Loading a new game will erase the current one				</string>
+	<string name = "parameterMainMessage">		Choose the parameter to manage:								</string>
+	<string name = "elementColorMessage">		Choose the element to set:									</string>
+	<string name = "colorChooserMessage">		Select the color chooser to use:							</string>
+	<string name = "setColorProgressMessage">	Select the <b>%1$s</b> value (between 0 and 255)					</string>
+	<string name = "setColorProgressError">		The <b>%1$s</b>	value must be a positive integer between 0 and 255</string>
+	<string name = "saveErrorTitle">			Saving Error!												</string>
+	<string name = "saveErrorMessage">			An error occurred while saving the game.\nSaving aborted	</string>
+	<string name = "loadErrorTitle">			Loading Error!												</string>
+	<string name = "loadErrorMessage">			An error occurred while loading the game \"<b>%1$s</b>\".\nLoading aborted	</string>
+	<string name = "bordError">					You can not play a square on the edge during step 1			</string>
+	<string name = "stepChangeError">			There is no next step										</string>
+	<string name = "redoError">					There is no reachable next game								</string>
+	<string name = "undoError">					There is no reachable previous game							</string>
+	<string name = "clearAllError">				The game is already empty									</string>
+	<string name = "groundDimError">			The ground dimension must be a positive integer between %1$d and %2$d</string>
+	<string name = "fullGroundError">			No game can be played any more: The ground is full.</string>
+	<string name = "saveExistingMessage">		A game with this name already exists						</string>
+	<string name = "saveEmptyNameMessage">		An empty name is not allowed 								</string>
+	<string name = "winMessage">				The Winner is: <b>%1$s</b>.</string>
+	<string name = "looseMessage">				The looser is: <b>%1$s</b>.\nHe has reached his opponents aim.</string>
+																													<!-- Rules -->
+	<string name = "STEP0">						Step 1:										</string>
+	<string name = "STEP1">						Step 2:										</string>
+	<string name = "historyAndExplanation">		History and Explanation										</string>
+	<string name = "step0Rules">During the first step, both players put black pawns. The edges of the ground are not accessible.\nThis step ends when a player clicks on the \"Next Step\" button. This player becomes the \"black player\".  The other one becomes the \"white player\"</string>
+	<string name = "step1Rules">The \"white player\" must make a line between two opposite edges.\nThe black player must make a Y shape between three disjoint edges.\nThe winner is the first player who achieves his aim.</string>
+	<string name = "historyAndExplanationText">The \"Unlur\" is an abstract combinatorial strategy game for two players.\nThe game was invented by <b>Jorge Gómez Arrausi</b> in the competition game \"2001 Annual Game Design Competition\", themed \"unequal strength games\".\nThe \"Un\" of the game name comes from \"unequal forces\".\nTo have no null game, a player loses if he reaches the opponent\'s goal without reaching the same time his own goal. This rule allows the \"White player\" to change his strategy from \"I need to connect two opposite sides\" to \"I try to force Black to connect two opposite sides\" highlighting the subtleties of the game.</string>
+
+
+
+
+
+	<string name = "pseudonyme">				Path Evra (pseudonym)						</string>
+	<string name = "myEmail">					pathevra@gmail.com\n\nDo not hesitate to contact us for any comments, corrections proposals, jokes (even if not funny).\nThe correction of our spelling mistakes will also be very appreciated (and gods knows how numerous there are....)</string>
+	<string name = "myCV">						Coming soon (in the next version of the game....)							</string>
+</resources>

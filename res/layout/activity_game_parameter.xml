@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<ScrollView
+	xmlns:android						= "http://schemas.android.com/apk/res/android" 
+	android:layout_width				= "fill_parent" 
+	android:layout_height				= "fill_parent" 
+	android:overScrollMode				= "always" 
+	android:isScrollContainer			= "true" 
+	android:scrollbarAlwaysDrawVerticalTrack="true" 
+	android:scrollbarStyle				= "outsideInset" 
+	android:scrollbars					= "vertical"
+	style								= "@style/menu">
+	<RelativeLayout
+		android:layout_width			= "fill_parent"
+		android:layout_height			= "wrap_content">
+		<TextView
+			android:id					= "@+id/labelGroundDim"
+			android:layout_width		= "wrap_content"
+			android:layout_height		= "wrap_content"
+			android:text				= "@string/groundDim"
+			style						= "@style/parameterLabel"/>
+
+		<EditText
+		    android:id					= "@+id/inputGroundDim"
+		    android:layout_width		= "fill_parent"
+		    android:layout_height		= "wrap_content"
+		    android:layout_alignTop		= "@id/labelGroundDim"
+		    android:layout_marginLeft	= "25dip"
+		    android:layout_toRightOf	= "@id/labelGroundDim"
+		    android:inputType			= "numberDecimal"
+		    style						= "@style/parameterEditText"/>
+		
+		<TextView
+		    android:id					= "@+id/labelPlayer1"
+		    android:layout_width		= "wrap_content"
+		    android:layout_height		= "wrap_content"
+			android:layout_below		= "@id/inputGroundDim"
+			android:layout_alignLeft	= "@id/labelGroundDim"
+			android:layout_alignRight	= "@id/labelGroundDim"
+			android:layout_marginTop	= "25dip"
+			android:text				= "@string/player1"
+			style						= "@style/parameterLabel"/>
+		<EditText
+			android:id					= "@+id/inputPlayer1"
+		    android:layout_width		= "fill_parent"
+		    android:layout_height		= "wrap_content"
+		    android:layout_alignLeft	= "@id/inputGroundDim"
+		    android:layout_alignTop		= "@id/labelPlayer1"
+			style						= "@style/parameterEditText"
+		    android:inputType			= "textPersonName"/>
+		<TextView
+		    android:id					= "@+id/labelPlayer2"
+		    android:layout_width		= "wrap_content"
+		    android:layout_height		= "wrap_content"
+			android:layout_below		= "@id/inputPlayer1"
+			android:layout_alignLeft	= "@id/labelGroundDim"
+			android:layout_alignRight	= "@id/labelGroundDim"
+			android:layout_marginTop	= "25dip"
+			android:text				= "@string/player2"
+			style						= "@style/parameterLabel"/>
+		<EditText
+			android:id					= "@+id/inputPlayer2"
+		    android:layout_width		= "fill_parent"
+		    android:layout_height		= "wrap_content"
+		    android:layout_alignLeft	= "@id/inputGroundDim"
+		    android:layout_alignTop		= "@id/labelPlayer2"
+			style						= "@style/parameterEditText"
+		    android:inputType			= "textPersonName"/>
+		<TextView
+		    android:id					= "@+id/labelPlayers"
+		    android:layout_width		= "wrap_content"
+		    android:layout_height		= "wrap_content"
+			android:layout_below		= "@id/inputPlayer2"
+			android:layout_alignLeft	= "@id/labelGroundDim"
+			android:layout_alignRight	= "@id/labelGroundDim"
+			android:layout_marginTop	= "25dip"
+			android:text				= "@string/players"
+			style						= "@style/parameterLabel"/>
+		<RadioGroup
+			android:id					= "@+id/radioGroupPlayers"
+			android:layout_width		= "wrap_content"
+			android:layout_height		= "wrap_content"
+		    android:layout_alignLeft	= "@id/inputGroundDim"
+		    android:layout_alignTop		= "@id/labelPlayers"
+			android:orientation			= "vertical">
+			<RadioButton
+				android:id				= "@+id/twoPlayersRadioButton"
+				android:layout_width	= "fill_parent"
+				android:layout_height	= "wrap_content"
+				android:text			= "@string/twoPlayers"
+				android:checked			= "true"
+				style					= "@style/parameterRadioButton"/>
+			<RadioButton
+				android:id				= "@+id/player1AIRadioButton"
+				android:layout_width	= "fill_parent"
+				android:layout_height	= "wrap_content"
+				android:text			= "@string/player1AI"
+				style					= "@style/parameterRadioButton"/>
+			<RadioButton
+				android:id				= "@+id/player2AIRadioButton"
+				android:layout_width	= "fill_parent"
+				android:layout_height	= "wrap_content"
+				android:text			= "@string/player2AI"
+				style					= "@style/parameterRadioButton"/>
+		</RadioGroup>
+		<TextView
+		    android:id					= "@+id/labelAILevel"
+		    android:layout_width		= "wrap_content"
+		    android:layout_height		= "wrap_content"
+			android:layout_below		= "@id/radioGroupPlayers"
+			android:layout_alignLeft	= "@id/labelGroundDim"
+			android:layout_alignRight	= "@id/labelGroundDim"
+			android:layout_marginTop	= "25dip"
+			android:text				= "@string/AILevel"
+			style						= "@style/parameterLabel"/>
+		<RadioGroup
+			android:id					= "@+id/radioGroupAILevel"
+			android:layout_width		= "wrap_content"
+			android:layout_height		= "wrap_content"
+		    android:layout_alignLeft	= "@id/inputGroundDim"
+		    android:layout_alignTop		= "@id/labelAILevel"
+			android:orientation			= "vertical">
+			<RadioButton
+				android:id				= "@+id/AIlevel1RadioButton"
+				android:layout_width	= "fill_parent"
+				android:layout_height	= "wrap_content"
+				android:text			= "@string/level1"
+				android:checked			= "true"
+				style					= "@style/parameterRadioButton"/>
+			<RadioButton
+				android:id				= "@+id/AIlevel2RadioButton"
+				android:layout_width	= "fill_parent"
+				android:layout_height	= "wrap_content"
+				android:text			= "@string/level2"
+				style					= "@style/parameterRadioButton"/>
+			<RadioButton
+				android:id				= "@+id/AIlevel3RadioButton"
+				android:layout_width	= "fill_parent"
+				android:layout_height	= "wrap_content"
+				android:text			= "@string/level3"
+				style					= "@style/parameterRadioButton"/>
+		</RadioGroup>
+		<LinearLayout
+		    android:orientation			= "horizontal"
+		    android:layout_width		= "wrap_content"
+		    android:layout_height		= "wrap_content"
+		    android:layout_below		= "@id/radioGroupAILevel"
+			android:layout_centerHorizontal="true"
+			android:layout_marginTop	= "65dip">
+		    <Button
+		        android:id				= "@+id/gameParameterOkButton"
+		        android:layout_width	= "wrap_content"
+				android:layout_height	= "wrap_content"
+		        android:text			= "@string/ok"/>
+		    <Button
+		        android:id				= "@+id/gameParameterCancelButton"
+		        android:layout_width	= "wrap_content"
+				android:layout_height	= "wrap_content"
+		        android:text			= "@string/cancel"/>
+		   </LinearLayout>
+	</RelativeLayout>
+</ScrollView>

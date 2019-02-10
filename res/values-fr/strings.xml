@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Unlur</string>
+	<string name="action_settings">Settings</string>
+
+																								<!-- Main image -->
+	<string name = "mainImageDescription">		Image d\'ouverture						</string>
+
+	<string name = "buttonNewMain">				Nouveau Jeu								</string>
+	<string name = "buttonLoadMain">			Charger un Jeu							</string>
+	<string name = "buttonRulesMain">			Règles du Jeu							</string>
+	<string name = "buttonParametersMain">		Paramètres								</string>
+	<string name = "buttonContactUsMain">		Nous Contacter							</string>
+	<string name = "buttonExitMain">			Quitter									</string>
+																								<!-- Info view -->
+	<string name = "stepTitle">					Étape:									</string>
+	<string name = "playerTitle">				Joueur:									</string>
+																								<!-- Control view -->
+	<string name = "changeStep">				Étape Suivante							</string>
+	<string name = "menuDescription">			Menu button image						</string>
+	<string name = "redoDescription">			Redo button image						</string>
+	<string name = "undoDescription">			Undo button image						</string>
+	<string name = "clearAllDescription">		Clear All button image					</string>
+																								<!-- Menu -->
+	<string name = "menuMainTitle">				Principal								</string>
+	<string name = "menuParameterTitle">		Paramètre								</string>
+	<string name = "menuGameTitle">				Jeux									</string>
+	<string name = "menuNewItem">				Nouveau Jeux							</string>
+	<string name = "menuLoadItem">				Charger un Jeux							</string>
+	<string name = "menuSaveItem">				Enregistrer le Jeux						</string>
+	<string name = "menuRulesItem">				Afficher les Règles de Jeux				</string>
+	<string name = "menuGameItem">				Paramètre du Jeux						</string>
+	<string name = "menuColorItem">				Couleurs du Jeux						</string>
+																								<!-- Parameters -->
+	<string name = "gameName">					Nom de la Partie						</string>
+	<string name = "groundDim">					Dim du Terrain							</string>
+	<string name = "player1">					Joueur 1								</string>
+	<string name = "player2">					Joueur 2								</string>
+	<string name = "step">						Étape									</string>
+	<string name = "creationDate">				Date de Creation 						</string>
+	<string name = "groundDimHint">				Entier positif compris entre %1$d et %2$d</string>
+	<string name = "players">					Joueurs									</string>
+	<string name = "twoPlayers">				Deux Joueurs							</string>
+	<string name = "player1AI">					Joueur 1: IA							</string>
+	<string name = "player2AI">					Joueur 2: IA							</string>
+	<string name = "AILevel">					Niveau de l\'intelligence artificielle	</string>
+	<string name = "level1">					Niveau 1								</string>
+	<string name = "level2">					Niveau 2								</string>
+	<string name = "level3">					Niveau 3								</string>
+	<string name = "ok">						OK										</string>
+	<string name = "cancel">					Annuler									</string>
+	<string name = "reset">						Recommencer								</string>
+	<string name = "restart">					Recommencer								</string>
+	<string name = "save">						Sauvegarder								</string>
+	<string name = "load">						Charger									</string>
+	<string name = "newGame">					Nouveau Jeux							</string>
+	<string name = "replaceExistingSave">		Rmplacer le jeux						</string>
+	<string name = "Game">						Jeux									</string>
+	<string name = "color">						Couleur									</string>
+	<string name = "changeGameName">			Changer le nom du jeux					</string>
+	<string name = "deleteGame">				Supprimer								</string>
+																								<!-- Contact Us -->
+	<string name = "developer">					Concepteur et Développeur				</string>
+	<string name = "email">						Email									</string>
+	<string name = "phone">						Numéro de Téléphone						</string>
+	<string name = "cv">						Curriculum Vitæ							</string>
+																								<!-- Color -->
+	<string name = "colorChooserParameterId">	Élément à définir: <b>%1$s</b>			</string>
+	<string name = "field">						Terrain									</string>
+	<string name = "outline">					Contour									</string>
+	<string name = "blackPawn">					Pion Noir								</string>
+	<string name = "whitePawn">					Pion blanc								</string>
+	<string name = "colorChooser">				Sélecteur de Couleur					</string>
+	<string name = "gridColorChooser">			Grille de Selection						</string>
+	<string name = "customColorChooser">		Couleurs Personnalisées					</string>
+	<string name = "red">						Rouge									</string>
+	<string name = "green">						Vert									</string>
+	<string name = "blue">						Bleu									</string>
+	<string name = "transparency">				Transparence							</string>
+																								<!-- Save -->
+	<string name = "saveHint">					Nom du Jeux								</string>
+	<string name = "saveLabel">					Veuillez entrer le nom du jeux à sauvegarder</string>
+																								<!-- Load -->
+	<string name = "loadLabel">					Sélectionnez un jeu à charger ....		</string>
+	<string name = "loadEmptyLabel">			<b>Il n\'y a aucune parties sauvegardées</b>	</string>
+																								<!-- Application -->
+	<string name = "step0">						1										</string>
+	<string name = "step1">						2										</string>
+	<string name = "step2">						Fin de la Partie						</string>
+	<string name = "AIChangeStep">				L\'inteligence artificielle est passée à la seconde étape</string>
+	<string name = "resetDimTitle">				Réinitialiser la dimension du terrain?	</string>
+	<string name = "resetDimMessage">			Modifier la dimension de terrain va réinitialiser votre partie en cours	</string>
+	<string name = "newGameTitle">				Définir un Nouveau Jeu?										</string>
+	<string name = "newGameMessage">			Définir un nouveau jeu va réinitialiser votre partie en cours</string>
+	<string name = "clearAllTitle">				Redémarrer la partie?										</string>
+	<string name = "clearAllMessage">			En redémarrant cette partie vous la supprimerez rais définitivement	</string>
+	<string name = "deleteGameTitle">			Supprimer la Partie?										</string>
+	<string name = "deleteGameMessage">			En supprimant ce jeux vous le retirez définitivement de votre systéme</string>
+	<string name = "deleteGameError">			Une erreur est survenue lors de la suppression du jeu \"<b>%1$s</b>\".\nSuppression annulée.</string>
+	<string name = "loadTitle">					Chargement?													</string>
+	<string name = "loadMessage">				Charger une nouvelle partie va effacer la partie en cours	</string>
+	<string name = "parameterMainMessage">		Choisissez le paramètre à gérer:							</string>
+	<string name = "elementColorMessage">		Choisissez l\'élément à définir:								</string>
+	<string name = "colorChooserMessage">		Choisissez le sélecteur de couleur à utiliser:				</string>
+	<string name = "setColorProgressMessage">	Choisissez la valeur de la couleur <b>%1$s</b> (entre 0 et 255)			</string>
+	<string name = "setColorProgressError">		La valeur de la couleur <b>%1$s</b>	doit être un entier positif compris entre 0 et 255</string>
+	<string name = "saveErrorTitle">			Erreur de sauvegarde!										</string>
+	<string name = "saveErrorMessage">			Une erreur est survenue lors de la sauvegarde du jeu.\nEnregistrement abandonnée</string>
+	<string name = "loadErrorTitle">			Erreur de chargement!										</string>
+	<string name = "loadErrorMessage">			Une erreur est survenue lors du chargement du jeu \"<b>%1$s</b>\".\nChargement abandonnée.</string>
+	<string name = "bordError">					Vous ne pouvez pas jouer une case en bord de terrain durant l\'étape 1</string>
+	<string name = "stepChangeError">			Il n\'y a aucune étape suivante								</string>
+	<string name = "redoError">					Il n\'y a aucun jeu suivant accessible						</string>
+	<string name = "undoError">					Il n\'y a aucun jeu précédent accessible						</string>
+	<string name = "clearAllError">				Le jeu est déjà vide										</string>
+	<string name = "groundDimError">			La dimension deterrain doit être un entier positif entre %1$d et %2$d</string>
+	<string name = "fullGroundError">			Plus aucun coup ne peut être joué: Le terrain est plein.</string>
+	<string name = "saveExistingMessage">		Un jeu de ce nom existe déjà								</string>
+	<string name = "saveEmptyNameMessage">		Un nom de partie ne peut être vide							</string>
+	<string name = "winMessage">				Le gagnant est: <b>%1$s</b>.								</string>
+	<string name = "looseMessage">				Le perdant est: <b>%1$s</b>.\nIl a atteint l\'objectif de son advérsaire.</string>
+																													<!-- Rules -->
+	<string name = "STEP0">						Étape 1:														</string>
+	<string name = "STEP1">						Étape 2:														</string>
+	<string name = "historyAndExplanation">		Historique et explication										</string>
+	<string name = "step0Rules">Au cours de la première étape, les deux joueurs placent des pions noirs. Les bords du terrain ne sont pas accessibles.\nCette étape se termine dès lors qu\'un joueur clique sur le bouton \"Etape suivante \". Ce dernier devient le \"joueur noir \". Son advérsaire devient le \"joueur blanc \"</string>
+	<string name = "step1Rules">Le \"joueur blanc \" doit placer une ligne entre deux bords opposés.\nLe joueur noir doit placer un Y entre trois bords disjoints.\nLe gagnant est le premier joueur à atteindre son objectif.</string>
+	<string name = "historyAndExplanationText">Le \"Unlur\" est un jeu de stratégie combinatoire abstrait pour deux joueurs.\nLe jeu a été inventé par <b>Jorge Gómez Arrausi</b> lors du concours \"<b>2001 Annual Game Design Competition</b>\", ayant pour thème \"<b>les jeux de force inégale</b>\".\nLe \"Un\" du nom provient de \"unequal forces\".\nAfin de n\'avoir aucun jeu nul, un joueur perd s\'il atteint l\'objectif de l\'adversaire sans atteindre en même temps son propre objectif.\nCette dernière règle permet au \"joueur blanc\" de passer d\'une stratégie « je dois relier deux côtés opposés » à une stratégie « j\'essaye de forcer Noir à relier deux côtés opposés » mettant en évidence toute la subtilité du jeu.</string>
+
+
+
+
+
+	<string name = "pseudonyme">				Path Evra (pseudonyme)											</string>
+	<string name = "myEmail">					pathevra@gmail.com\n\nN\'hésitez pas à nous contacter pour tout commentaire, proposition, correction, blague (même les moins drôles seront acceptés).\nLa correction des fautes d\'orthographe sera également trés appréciée (et dieux sait qu\'elles sont nombreuses.... )</string>
+	<string name = "myCV">						À venir (dans la prochaine version du jeu....)				</string>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+	xmlns:android							= "http://schemas.android.com/apk/res/android"
+	android:layout_width					= "fill_parent"
+	android:layout_height					= "fill_parent"
+	android:overScrollMode					= "always"
+	android:isScrollContainer				= "true"
+	android:scrollbarAlwaysDrawVerticalTrack="true"
+	android:scrollbarStyle					= "outsideInset"
+	android:scrollbars						= "vertical"
+	style									= "@style/menu">
+	<RelativeLayout	
+	    android:layout_width				= "wrap_content"
+	    android:layout_height				= "wrap_content">
+
+		<TextView
+			android:id						= "@+id/rulesStep0"
+			android:layout_width			= "wrap_content"
+			android:layout_height			= "wrap_content"
+			android:text					= "@string/STEP0"
+			style							= "@style/menuTitle">
+   		</TextView>
+		<TextView
+		    android:id						= "@+id/rulesStep0Text"
+		    android:layout_height			= "wrap_content"
+		    android:layout_width			= "fill_parent"
+		    android:layout_below			= "@id/rulesStep0"
+		    android:text					= "@string/step0Rules"
+		    style							= "@style/menuItem">
+		</TextView>
+
+		<TextView
+			android:id						= "@+id/rulesStep1"
+			android:layout_width			= "wrap_content"
+			android:layout_height			= "wrap_content"
+			android:layout_below			= "@id/rulesStep0Text"
+			android:text					= "@string/STEP1"
+			style							= "@style/menuTitle">
+   		</TextView>
+		<TextView
+		    android:id						= "@+id/rulesStep1Text"
+		    android:layout_height			= "wrap_content"
+		    android:layout_width			= "fill_parent"
+		    android:layout_below			= "@id/rulesStep1"
+		    android:text					= "@string/step1Rules"
+		    style							= "@style/menuItem">
+		</TextView>
+
+		<TextView
+			android:id						= "@+id/historyAndExplanation"
+			android:layout_width			= "wrap_content"
+			android:layout_height			= "wrap_content"
+			android:layout_below			= "@id/rulesStep1Text"
+			android:text					= "@string/historyAndExplanation"
+			style							= "@style/menuTitle">
+   		</TextView>
+		<TextView
+		    android:id						= "@+id/historyAndExplanationText"
+		    android:layout_height			= "wrap_content"
+		    android:layout_width			= "fill_parent"
+		    android:layout_below			= "@id/historyAndExplanation"
+		    android:text					= "@string/historyAndExplanationText"
+		    style							= "@style/menuItem">
+		</TextView>
+	</RelativeLayout>
+</ScrollView>

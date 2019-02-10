@@ -1,0 +1,114 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+
+
+<!-- ==================================== -->    
+<!-- Boutons du panneau principale		  -->
+<!-- ==================================== -->
+		<style name = "mainButton">
+			<item	name = "android:background">		@color/backgroundMainButton				</item>
+		</style>
+<!-- ==================================== -->    
+<!-- Panneau lateral gauche :infoView	  -->
+<!-- ==================================== -->    
+		<style name = "infoTitle">
+			<item	name = "android:background">		@color/backgroundInfoTitle				</item>
+			<item 	name = "android:textColor">			@color/textInfoTitle					</item>
+		    <item	name = "android:gravity">			left|center_vertical					</item>
+		</style>
+		<style name = "infoValue">
+			<item	name = "android:background">		@color/backgroundInfoValue				</item>
+			<item 	name = "android:textColor">			@color/textInfoValue					</item>
+		    <item	name = "android:gravity">			right|center_vertical					</item>
+		</style>
+<!-- ==================================== -->    
+<!-- Boutons du panneau lateral droit	  -->
+<!-- ==================================== -->
+		<style name = "controlButton">
+			<item	name = "android:background">		@color/backgroundControlButton				</item>
+		</style>
+<!-- ==================================== -->    
+<!-- Menu								  -->
+<!-- ==================================== -->
+		<style		name = "menu">
+			<item	name = "android:background">		@color/backgroundMenu					</item>
+			<item	name = "android:paddingLeft">		25dip									</item>
+			<item	name = "android:paddingRight">		25dip									</item>
+			<item	name = "android:paddingTop">		30dip									</item>
+		</style>
+	
+		<style		name = "menuTitle">
+			<item	name = "android:background">		@color/backgroundMenuTitle				</item>
+			<item	name = "android:textColor">			@color/textMenuTitle					</item>
+			<item 	name = "android:layout_marginTop">	20dip									</item>
+			<item 	name = "android:layout_marginBottom">15dip									</item>
+		</style>
+
+		<style		name = "menuItem">
+			<item	name = "android:background">		@color/backgroundMenuItem			</item>
+			<item	name = "android:textColor">			@color/textMenuItem					</item>
+			<item	name = "android:layout_marginLeft">	25dip								</item>
+			<item 	name = "android:layout_marginTop">	2dip								</item>
+			<item 	name = "android:paddingLeft">		5dip								</item>
+			<item 	name = "android:paddingTop">		5dip								</item>
+			<item 	name = "android:paddingBottom">		5dip								</item>
+		</style>
+<!-- ==================================== -->    
+<!-- Parameter panel					  -->
+<!-- ==================================== -->
+		<style 		name = "parameter">
+			<item	name = "android:background">		@color/backgroundParameterLabel			</item>
+			<item	name = "android:paddingLeft">		10dip									</item>
+			<item	name = "android:paddingRight">		10dip									</item>
+			<item	name = "android:paddingTop">		10dip									</item>
+			<item	name = "android:paddingBottom">		10dip									</item>
+		</style>
+		<style		name = "parameterLabel">
+			<item	name = "android:background">		@color/backgroundParameterLabel			</item>
+			<item	name = "android:textColor">			@color/textParameterLabel				</item>
+		</style>
+		<style		name = "parameterEditText">
+			<item	name = "android:background">		@color/backgroundParameterEditText		</item>
+			<item	name = "android:textColor">			@color/textParameterEditText			</item>
+		</style>
+		<style		name = "parameterRadioButton">
+			<item	name = "android:background">		@color/backgroundParameterRadioButton	</item>
+			<item	name = "android:textColor">			@color/textParameterRadioButton			</item>
+		</style>
+		<style 		name = "load">
+			<item	name = "android:background">		@color/backgroundColor					</item>
+			<item	name = "android:textColor">			@color/textCustomColorChooser			</item>
+			<item	name = "android:paddingLeft">		10dip									</item>
+			<item	name = "android:paddingRight">		10dip									</item>
+			<item	name = "android:paddingTop">		10dip									</item>
+			<item	name = "android:paddingBottom">		10dip									</item>
+		</style>
+<!-- ==================================== -->    
+<!-- Color Chooser Panel				  -->
+<!-- ==================================== -->
+		<style 		name = "parameterColorCustom">
+			<item	name = "android:background">		@color/backgroundColor					</item>
+			<item	name = "android:textColor">			@color/textCustomColorChooser			</item>
+			<item	name = "android:paddingLeft">		5dip									</item>
+			<item	name = "android:paddingRight">		5dip									</item>
+			<item	name = "android:paddingTop">		10dip									</item>
+			<item	name = "android:paddingBottom">		10dip									</item>
+		</style>
+</resources>

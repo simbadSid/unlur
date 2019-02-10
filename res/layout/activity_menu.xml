@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+<ScrollView
+	xmlns:android				= "http://schemas.android.com/apk/res/android" 
+	android:layout_width		= "fill_parent" 
+	android:layout_height		= "fill_parent" 
+	android:overScrollMode		= "always" 
+	android:isScrollContainer	= "true" 
+	android:scrollbarAlwaysDrawVerticalTrack="true" 
+	android:scrollbarStyle		= "outsideInset" 
+	android:scrollbars			= "vertical"
+	style						= "@style/menu">
+	<RelativeLayout
+	    android:layout_width	= "wrap_content"
+	    android:layout_height	= "wrap_content">
+																		<!-- Main List -->
+	    <TextView
+			android:id				= "@+id/menuMainTitle"
+			android:layout_width	= "wrap_content"
+			android:layout_height	= "wrap_content"
+			android:text			= "@string/menuMainTitle"
+			style					= "@style/menuTitle">
+   		</TextView>
+		<TextView
+		    android:id				= "@+id/menuNewItem"
+		    android:layout_height	= "wrap_content"
+		    android:layout_width	= "fill_parent"
+		    android:layout_below	= "@id/menuMainTitle"
+		    android:text			= "@string/menuNewItem"
+		    style					= "@style/menuItem">
+		</TextView>
+		<TextView
+		    android:id				= "@+id/menuLoadItem"
+		    android:layout_height	= "wrap_content"
+		    android:layout_width	= "fill_parent"
+		    android:layout_below	= "@id/menuNewItem"
+		    android:text			= "@string/menuLoadItem"
+		    style					= "@style/menuItem">
+		</TextView>
+		<TextView
+		    android:id				= "@+id/menuSaveItem"
+		    android:layout_height	= "wrap_content"
+		    android:layout_width	= "fill_parent"
+		    android:layout_below	= "@id/menuLoadItem"
+		    android:text			= "@string/menuSaveItem"
+		    style					= "@style/menuItem">
+		</TextView>
+		<TextView
+		    android:id				= "@+id/menuRulesItem"
+		    android:layout_height	= "wrap_content"
+		    android:layout_width	= "fill_parent"
+		    android:layout_below	= "@id/menuSaveItem"
+		    android:text			= "@string/menuRulesItem"
+		    style					= "@style/menuItem">
+		</TextView>
+																					<!-- Parameter List -->
+	    <TextView
+			android:id				= "@+id/menuParameterTitle"
+			android:layout_width	= "wrap_content"
+			android:layout_height	= "wrap_content"
+			android:layout_below	= "@id/menuRulesItem"
+			android:text			= "@string/menuParameterTitle"
+			style					= "@style/menuTitle">
+		</TextView>
+		<TextView
+		    android:id				= "@+id/menuGameItem"
+		    android:layout_height	= "wrap_content"
+		    android:layout_width	= "fill_parent"
+		    android:layout_below	= "@id/menuParameterTitle"
+		    android:text			= "@string/menuGameItem"
+		    style					= "@style/menuItem">
+		</TextView>
+		<TextView
+		    android:id				= "@+id/menuColorItem"
+		    android:layout_height	= "wrap_content"
+		    android:layout_width	= "fill_parent"
+		    android:layout_below	= "@id/menuGameItem"
+		    android:text			= "@string/menuColorItem"
+		    style					= "@style/menuItem">
+		</TextView>
+	</RelativeLayout>
+</ScrollView>

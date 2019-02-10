@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<manifest
+	xmlns:android						="http://schemas.android.com/apk/res/android"
+	package								="evra.path.unlur"
+	android:versionCode					="1"
+	android:versionName					="1.0" >
+
+	<uses-sdk
+		android:minSdkVersion			="7"
+		android:targetSdkVersion		="21"
+	/>
+
+	<application
+		android:allowBackup				="true"
+		android:icon					="@drawable/ic_launcher"
+		android:label					="@string/app_name"
+		android:theme					="@style/AppTheme" >
+																	<!-- Activity Main -->
+	   	<activity
+			android:name				="evra.path.unlur.MainActivity"
+			android:screenOrientation	="landscape"
+			android:label				="@string/app_name" >
+			<intent-filter>
+				<action android:name	="android.intent.action.MAIN" />
+
+				<category android:name	="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+																	<!-- Activity Game -->
+		<activity
+			android:name				="evra.path.unlur.GameActivity"
+			android:screenOrientation	="landscape"
+			android:label				="@string/app_name" >
+			<intent-filter>
+				<action android:name	="android.intent.action.GAME" />
+
+				<category android:name	="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+																	<!-- Activity Menu -->
+		<activity
+			android:name				="evra.path.unlur.MenuActivity"
+			android:label				="@string/app_name" >
+			<intent-filter>
+				<action android:name	="android.intent.action.GAME" />
+
+				<category android:name	="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+																	<!-- Activity Game param -->
+		<activity
+			android:name				="evra.path.unlur.GameParameterActivity"
+			android:label				="@string/app_name" >
+			<intent-filter>
+				<action android:name	="android.intent.action.GAME" />
+
+				<category android:name	="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+																	<!-- Activity Load -->
+		<activity
+			android:name				="evra.path.unlur.LoadActivity"
+			android:screenOrientation	="landscape"
+			android:label				="@string/app_name" >
+			<intent-filter>
+				<action android:name	="android.intent.action.GAME" />
+
+				<category android:name	="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+																	<!-- Activity Color Parameter Grid Chooser-->
+		<activity
+			android:name				="evra.path.unlur.ColorParameterGridChooserActivity"
+			android:screenOrientation	="landscape"
+			android:label				="@string/app_name" >
+			<intent-filter>
+				<action android:name	="android.intent.action.GAME" />
+
+				<category android:name	="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+																	<!-- Activity Color Parameter Custom Chooser-->
+		<activity
+			android:name				="evra.path.unlur.ColorParameterCustomChooserActivity"
+			android:screenOrientation	="landscape"
+			android:label				="@string/app_name" >
+			<intent-filter>
+				<action android:name	="android.intent.action.GAME" />
+
+				<category android:name	="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+																	<!-- Activity Rules-->
+		<activity
+			android:name				="evra.path.unlur.RulesActivity"
+			android:label				="@string/app_name" >
+			<intent-filter>
+				<action android:name	="android.intent.action.GAME" />
+
+				<category android:name	="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+																	<!-- Activity ContactUs-->
+		<activity
+			android:name				="evra.path.unlur.ContactUsActivity"
+			android:label				="@string/app_name" >
+			<intent-filter>
+				<action android:name	="android.intent.action.GAME" />
+
+				<category android:name	="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+	</application>
+</manifest>

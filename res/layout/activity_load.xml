@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+	xmlns:android								= "http://schemas.android.com/apk/res/android"
+	android:layout_width						= "match_parent"
+	android:layout_height						= "match_parent"
+	android:background							= "@color/backgroundMenu">
+
+																					<!-- Boutton Superieur -->
+	<RelativeLayout
+	    android:id								= "@+id/loadLayout"
+		android:layout_width					= "wrap_content"
+		android:layout_height					= "wrap_content"
+        android:layout_alignParentRight			= "true"
+        android:layout_centerVertical			= "true">
+		<Button
+			android:id							= "@+id/loadSelectionButton"
+			android:layout_width				= "wrap_content"
+			android:layout_height				= "wrap_content"
+			android:background					= "@color/backgroundColor"
+			android:paddingLeft					= "40dip"
+			android:paddingRight				= "40dip"
+			android:paddingTop					= "10dip"
+			android:paddingBottom				= "10dip"
+			android:text						= "@string/loadLabel"
+			android:textColor					= "@color/textColorChooser"/>
+																					<!-- Liste dinfo -->
+		<RelativeLayout
+		    android:id							= "@+id/loadInfo"
+		    android:layout_width				= "wrap_content"
+		    android:layout_height				= "wrap_content"
+		    android:layout_below				= "@id/loadSelectionButton"
+		    android:layout_alignLeft			= "@id/loadSelectionButton"
+		    android:layout_alignRight			= "@id/loadSelectionButton"
+		    android:layout_marginTop			= "20dip"
+			style								= "@style/load">
+			<TextView
+				android:id						= "@+id/loadInfoGameNameLab"
+				android:layout_width			= "wrap_content"
+				android:layout_height			= "wrap_content"/>
+			<TextView
+				android:id						= "@+id/loadInfoDimLab"
+				android:layout_width			= "wrap_content"
+				android:layout_height			= "wrap_content"
+				android:layout_below			= "@id/loadInfoGameNameLab"
+				android:layout_alignLeft		= "@id/loadInfoGameNameLab"
+				android:layout_alignRight		= "@id/loadInfoGameNameLab"
+				android:layout_marginTop		= "5dip"/>
+			<TextView
+				android:id						= "@+id/loadInfoPlayer1Lab"
+				android:layout_width			= "wrap_content"
+				android:layout_height			= "wrap_content"
+				android:layout_below			= "@id/loadInfoDimLab"
+				android:layout_alignLeft		= "@id/loadInfoDimLab"
+				android:layout_alignRight		= "@id/loadInfoDimLab"
+				android:layout_marginTop		= "5dip"/>
+			<TextView
+				android:id						= "@+id/loadInfoPlayer2Lab"
+				android:layout_width			= "wrap_content"
+				android:layout_height			= "wrap_content"
+				android:layout_below			= "@id/loadInfoPlayer1Lab"
+				android:layout_alignLeft		= "@id/loadInfoPlayer1Lab"
+				android:layout_alignRight		= "@id/loadInfoPlayer1Lab"
+				android:layout_marginTop		= "5dip"/>
+			<TextView
+				android:id						= "@+id/loadInfoStepLab"
+				android:layout_width			= "wrap_content"
+				android:layout_height			= "wrap_content"
+				android:layout_below			= "@id/loadInfoPlayer2Lab"
+				android:layout_alignLeft		= "@id/loadInfoPlayer2Lab"
+				android:layout_alignRight		= "@id/loadInfoPlayer2Lab"
+				android:layout_marginTop		= "5dip"/>
+			<TextView
+				android:id						= "@+id/loadInfoDateLab"
+				android:layout_width			= "wrap_content"
+				android:layout_height			= "wrap_content"
+				android:layout_below			= "@id/loadInfoStepLab"
+				android:layout_alignLeft		= "@id/loadInfoStepLab"
+				android:layout_alignRight		= "@id/loadInfoStepLab"
+				android:layout_marginTop		= "5dip"/>
+			<TextView
+				android:id						= "@+id/loadInfoDimText"
+				android:layout_width			= "fill_parent"
+				android:layout_height			= "wrap_content"
+				android:layout_toRightOf		= "@id/loadInfoDimLab"
+				android:layout_alignTop			= "@id/loadInfoDimLab"
+				android:layout_alignBottom		= "@id/loadInfoDimLab"
+				android:layout_marginLeft		= "5dip"/>
+			<TextView
+				android:id						= "@+id/loadInfoGameNameText"
+				android:layout_width			= "fill_parent"
+				android:layout_height			= "wrap_content"
+				android:layout_toRightOf		= "@id/loadInfoGameNameLab"
+				android:layout_alignTop			= "@id/loadInfoGameNameLab"
+				android:layout_alignBottom		= "@id/loadInfoGameNameLab"
+				android:layout_marginLeft		= "5dip"/>
+			<TextView
+				android:id						= "@+id/loadInfoPlayer1Text"
+				android:layout_width			= "fill_parent"
+				android:layout_height			= "wrap_content"
+				android:layout_toRightOf		= "@id/loadInfoPlayer1Lab"
+				android:layout_alignTop			= "@id/loadInfoPlayer1Lab"
+				android:layout_alignBottom		= "@id/loadInfoPlayer1Lab"
+				android:layout_marginLeft		= "5dip"/>
+			<TextView
+				android:id						= "@+id/loadInfoPlayer2Text"
+				android:layout_width			= "fill_parent"
+				android:layout_height			= "wrap_content"
+				android:layout_toRightOf		= "@id/loadInfoPlayer2Lab"
+				android:layout_alignTop			= "@id/loadInfoPlayer2Lab"
+				android:layout_alignBottom		= "@id/loadInfoPlayer2Lab"
+				android:layout_marginLeft		= "5dip"/>
+			<TextView
+				android:id						= "@+id/loadInfoStepText"
+				android:layout_width			= "fill_parent"
+				android:layout_height			= "wrap_content"
+				android:layout_toRightOf		= "@id/loadInfoStepLab"
+				android:layout_alignTop			= "@id/loadInfoStepLab"
+				android:layout_alignBottom		= "@id/loadInfoStepLab"
+				android:layout_marginLeft		= "5dip"/>
+			<TextView
+				android:id						= "@+id/loadInfoDateText"
+				android:layout_width			= "fill_parent"
+				android:layout_height			= "wrap_content"
+				android:layout_toRightOf		= "@id/loadInfoDateLab"
+				android:layout_alignTop			= "@id/loadInfoDateLab"
+				android:layout_alignBottom		= "@id/loadInfoDateLab"
+				android:layout_marginLeft		= "5dip"/>
+		</RelativeLayout>
+	</RelativeLayout>
+	<RelativeLayout
+		android:layout_width					= "fill_parent"
+		android:layout_height					= "fill_parent"
+		android:layout_toLeftOf					= "@id/loadLayout"
+		android:layout_marginBottom				= "5dip">
+																				<!-- Panneau bas -->
+		<LinearLayout
+		    android:id							= "@+id/loadOkCancelButton"
+			android:layout_width				= "wrap_content"
+			android:layout_height				= "wrap_content"
+			android:layout_alignParentBottom	= "true"
+			android:layout_centerHorizontal		= "true"
+			android:orientation					= "horizontal" >
+			<Button
+				android:id						= "@+id/loadOkButton"
+				android:layout_width			= "wrap_content"
+				android:layout_height			= "wrap_content"
+				android:layout_marginRight		= "5dip"
+				android:paddingTop				= "10dip"
+				android:paddingBottom			= "10dip"
+				android:paddingLeft				= "5dip"
+				android:paddingRight			= "5dip"
+				android:background				= "@color/backgroundMenuItem"
+				android:text					= "@string/load" />
+		    <Button
+		        android:id						= "@+id/loadDeleteButton"
+		        android:layout_width			= "wrap_content"
+		        android:layout_height			= "wrap_content"
+		        android:layout_marginRight		= "5dip"
+				android:paddingTop				= "10dip"
+				android:paddingBottom			= "10dip"
+				android:paddingLeft				= "5dip"
+				android:paddingRight			= "5dip"
+				android:background				= "@color/backgroundMenuItem"
+		        android:text					= "@string/deleteGame"/>
+		</LinearLayout>
+																				<!-- Vue centrale: terrain -->
+		<graphic.GroundView
+			android:id							= "@+id/loadGroundView"
+			android:layout_above				= "@id/loadOkCancelButton"
+			android:layout_height				= "fill_parent"
+			android:layout_width				= "fill_parent">
+		</graphic.GroundView>
+	</RelativeLayout>
+</RelativeLayout>

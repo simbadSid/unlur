@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+	xmlns:android								= "http://schemas.android.com/apk/res/android"
+	android:layout_width						= "match_parent"
+	android:layout_height						= "match_parent"
+	android:background							= "@color/backgroundMenu">
+	<RelativeLayout
+	    android:id								= "@+id/colorChooserCustomLayout"
+	    android:layout_width					= "wrap_content"
+	    android:layout_height					= "wrap_content"
+	    android:layout_alignParentRight			= "true"
+	    android:layout_centerVertical			= "true">
+																					<!-- Boutton Superieur -->
+		<Button
+			android:id							= "@+id/colorChooserCustomParameterId"
+			android:layout_width				= "wrap_content"
+			android:layout_height				= "wrap_content"
+			android:background					= "@color/backgroundColor"
+			android:paddingLeft					= "40dip"
+			android:paddingRight				= "40dip"
+			android:textColor					= "@color/textColorChooser"/>
+	    																				<!-- Panneau droit -->
+		<RelativeLayout
+		    android:layout_width				= "wrap_content"
+		    android:layout_height				= "wrap_content"
+			android:layout_below				= "@id/colorChooserCustomParameterId"
+			android:layout_alignLeft			= "@id/colorChooserCustomParameterId"
+			android:layout_alignRight			= "@id/colorChooserCustomParameterId"
+			android:layout_marginTop			= "20dip"
+		    android:layout_centerVertical		= "true">
+			<TextView
+				android:id						= "@+id/colorChooserCustomTransparency"
+				android:layout_width			= "wrap_content"
+				android:layout_height			= "wrap_content"
+				android:text					= "@string/transparency"
+				style							= "@style/parameterColorCustom"/>
+			<TextView
+				android:id						= "@+id/colorChooserCustomRed"
+				android:layout_width			= "wrap_content"
+				android:layout_height			= "wrap_content"
+				android:layout_below			= "@id/colorChooserCustomTransparency"
+				android:layout_alignLeft		= "@id/colorChooserCustomTransparency"
+				android:layout_alignRight		= "@id/colorChooserCustomTransparency"
+				android:layout_marginTop		= "5dip"
+				android:text					= "@string/red"
+				style							= "@style/parameterColorCustom"/>
+			<TextView
+				android:id						= "@+id/colorChooserCustomGreen"
+				android:layout_width			= "wrap_content"
+				android:layout_height			= "wrap_content"
+				android:layout_below			= "@id/colorChooserCustomRed"
+				android:layout_alignLeft		= "@id/colorChooserCustomTransparency"
+				android:layout_alignRight		= "@id/colorChooserCustomTransparency"
+				android:layout_marginTop		= "5dip"
+				android:text					= "@string/green"
+				style							= "@style/parameterColorCustom"/>
+			<TextView
+				android:id						= "@+id/colorChooserCustomBlue"
+				android:layout_width			= "wrap_content"
+				android:layout_height			= "wrap_content"
+				android:layout_below			= "@id/colorChooserCustomGreen"
+				android:layout_alignLeft		= "@id/colorChooserCustomTransparency"
+				android:layout_alignRight		= "@id/colorChooserCustomTransparency"
+				android:layout_marginTop		= "5dip"
+				android:text					= "@string/blue"
+				style							= "@style/parameterColorCustom"/>
+			<SeekBar
+				android:id						= "@+id/colorChooserCustomSeekerTransparency"
+				android:layout_width			= "fill_parent"
+				android:layout_height			= "wrap_content"
+				android:layout_toRightOf		= "@id/colorChooserCustomTransparency"
+				android:layout_alignTop			= "@id/colorChooserCustomTransparency"
+				android:layout_alignBottom		= "@id/colorChooserCustomTransparency"
+				android:layout_marginLeft		= "5dip"
+				style							= "?android:attr/progressBarStyleHorizontal"
+				android:max						= "255"/>
+			<SeekBar
+				android:id						= "@+id/colorChooserCustomSeekerRed"
+				android:layout_width			= "fill_parent"
+				android:layout_height			= "wrap_content"
+				android:layout_toRightOf		= "@id/colorChooserCustomRed"
+				android:layout_alignTop			= "@id/colorChooserCustomRed"
+				android:layout_alignBottom		= "@id/colorChooserCustomRed"
+				android:layout_marginLeft		= "5dip"
+				style							= "?android:attr/progressBarStyleHorizontal"
+				android:max						= "255"/>
+			<SeekBar
+				android:id						= "@+id/colorChooserCustomSeekerGreen"
+				android:layout_width			= "fill_parent"
+				android:layout_height			= "wrap_content"
+				android:layout_toRightOf		= "@id/colorChooserCustomGreen"
+				android:layout_alignTop			= "@id/colorChooserCustomGreen"
+				android:layout_alignBottom		= "@id/colorChooserCustomGreen"
+				android:layout_marginLeft		= "5dip"
+				style							= "?android:attr/progressBarStyleHorizontal"
+				android:max						= "255"/>
+			<SeekBar
+				android:id						= "@+id/colorChooserCustomSeekerBlue"
+				android:layout_width			= "fill_parent"
+				android:layout_height			= "wrap_content"
+				android:layout_toRightOf		= "@id/colorChooserCustomBlue"
+				android:layout_alignTop			= "@id/colorChooserCustomBlue"
+				android:layout_alignBottom		= "@id/colorChooserCustomBlue"
+				android:layout_marginLeft		= "5dip"
+				style							= "?android:attr/progressBarStyleHorizontal"
+				android:max						= "255"/>
+		</RelativeLayout>
+	</RelativeLayout>
+	<RelativeLayout
+		android:layout_width					= "fill_parent"
+		android:layout_height					= "fill_parent"
+		android:layout_toLeftOf					= "@id/colorChooserCustomLayout"
+		android:layout_marginBottom				= "5dip">
+																				<!-- Panneau bas -->
+		<LinearLayout
+			android:id							= "@+id/colorChooserCustomOkCancelLayout"
+			android:layout_width				= "wrap_content"
+			android:layout_height				= "wrap_content"
+			android:layout_alignParentBottom	= "true"
+			android:layout_centerHorizontal		= "true"
+			android:orientation					= "horizontal" >
+			<Button
+				android:id						= "@+id/colorParameterChooseCustomOkButton"
+				android:layout_width			= "wrap_content"
+				android:layout_height			= "wrap_content"
+				android:layout_marginRight		= "5dip"
+				android:paddingTop				= "10dip"
+				android:paddingBottom			= "10dip"
+				android:paddingLeft				= "5dip"
+				android:paddingRight			= "5dip"
+				android:background				= "@color/backgroundMenuItem"
+				android:text					= "@string/ok" />
+		    <Button
+		        android:id						= "@+id/colorParameterChooserCustomSetChooserButton"
+		        android:layout_width			= "wrap_content"
+		        android:layout_height			= "wrap_content"
+		        android:layout_marginRight		= "5dip"
+				android:paddingTop				= "10dip"
+				android:paddingBottom			= "10dip"
+				android:paddingLeft				= "5dip"
+				android:paddingRight			= "5dip"
+				android:background				= "@color/backgroundMenuItem"
+		        android:text					= "@string/colorChooser"/>
+		</LinearLayout>
+																				<!-- Vue centrale: terrain -->
+		<graphic.GroundView
+			android:id							= "@+id/colorCustomGroundView"
+			android:layout_above				= "@id/colorChooserCustomOkCancelLayout"
+			android:layout_height				= "fill_parent"
+			android:layout_width				= "fill_parent">
+		</graphic.GroundView>
+	</RelativeLayout>
+</RelativeLayout>

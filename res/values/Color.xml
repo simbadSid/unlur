@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+																		<!-- Vue Principale -->
+	<color name = "backgroundMainButton">		#00FF00		</color>
+
+    																	<!-- Vue centrale: terrain -->
+	<color name = "defaultBackgroundColor">		#000000		</color>
+	<color name = "defaultFieldColor">			#ff5500		</color>
+	<color name = "defaultOutlineColor">		#000000		</color>
+	<color name = "defaultWhitePawnColor">		#ffffff		</color>
+	<color name = "defaultBlackPawnColor">		#000000		</color>
+	<color name = "defaultWinCrossColor">		#ff0000		</color>
+
+																		<!-- Vue gauche -->
+	<color name = "backgroundInfoTitle">		#FFFFFF		</color>
+	<color name = "textInfoTitle">				#000000		</color>
+	<color name = "backgroundInfoValue">		#FFFFFF		</color>
+	<color name = "textInfoValue">				#00FF00		</color>
+																		<!-- Vue droite -->
+	<color name = "backgroundControlButton">	#FFFFFF		</color>
+
+																		<!-- Menu -->
+	<color name = "backgroundMenu">				#000000		</color>
+	<color name = "backgroundMenuTitle">		#000000		</color>
+	<color name = "backgroundMenuItem">			#FFFFFF		</color>
+	<color name = "textMenuTitle">				#FFFFFF		</color>
+	<color name = "textMenuItem">				#000000		</color>
+																		<!-- Parameters panel -->
+	<color name = "backgroundParameterLabel">	#000000		</color>
+	<color name = "backgroundParameterEditText">#FFFFFF		</color>
+	<color name = "backgroundParameterRadioButton">#FFFFFF		</color>
+	<color name = "backgroundColor">			#FFFFFF		</color>
+	<color name = "textParameterLabel">			#FFFFFF		</color>
+	<color name = "textParameterEditText">		#000000		</color>
+	<color name = "textParameterRadioButton">	#000000		</color>
+	<color name = "textColorChooser">			#000000		</color>
+	<color name = "textCustomColorChooser">		#000000		</color>
+
+</resources>
